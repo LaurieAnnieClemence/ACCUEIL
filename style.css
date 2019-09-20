@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+a {
+  border: 10px solid black;
+  padding: 40px;
+  background-color: blue; 
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Monaco, monospace;
+}
+
+quote {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+}
