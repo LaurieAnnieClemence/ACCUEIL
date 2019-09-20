@@ -1,4 +1,9 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
   background-color: black;
   font-size: 30px;
   font-weight: bold;
@@ -6,22 +11,31 @@ body {
 
 div {
   display: flex;
+  width: 60%;
   justify-content: center;
   text-align: center;
 
 }
 
 a {
-  border: 10px solid black;
   padding: 40px;
-  background-color: blue; 
   text-decoration: none;
-  color: white;
   font-family: Arial, Monaco, monospace;
+  margin: 15px;
 }
 
 quote {
   font-style: italic;
   font-weight: normal;
   font-size: 25px;
+}
+
+.zerodechet {
+  background-color: blue;
+  color: white;
+}
+
+.gilets-jaunes {
+  background-color: yellow;
+  color: black;
 }
