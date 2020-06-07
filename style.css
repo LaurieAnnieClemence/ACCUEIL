@@ -1,7 +1,5 @@
 body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
 
   background-color: black;
@@ -11,31 +9,16 @@ body {
 
 div {
   display: flex;
-  width: 60%;
-  justify-content: center;
-  text-align: center;
-
-}
-
-a {
-  padding: 40px;
-  text-decoration: none;
-  font-family: Arial, Monaco, monospace;
-  margin: 15px;
-}
-
-quote {
-  font-style: italic;
-  font-weight: normal;
-  font-size: 25px;
+  width: 100%;
+  align-items: stretch;
+  flex-diretion: row;
+  margin: 10px;
 }
 
 .zerodechet {
-  background-color: blue;
-  color: white;
+  width: 90%
 }
 
-.gilets-jaunes {
-  background-color: yellow;
-  color: black;
+.citoyen {
+  width: 100%
 }
